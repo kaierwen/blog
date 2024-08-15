@@ -105,3 +105,12 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type:
+# Search
+# 配置本地搜索，主站配置 hexo config
+# 需要安装插件：$ npm install hexo-generator-searchdb --save
+# 详细配置请参考：https://theme-next.js.org/docs/third-party-services/search-services.html#Local-Search
+# search:
+#   path: search.xml
+#   field: post
+#   content: true
+#   format: html
