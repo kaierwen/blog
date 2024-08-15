@@ -656,7 +656,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active:
+  active: giscus
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -668,6 +668,32 @@ comments:
     #  order: -1
     #gitalk:
     #  order: -2
+
+# giscus 评论组件
+# github仓库地址： https://github.com/giscus/giscus
+# giscus 配置生成地址：https://giscus.app/zh-CN
+# giscus next 主题插件仓库地址：https://github.com/next-theme/hexo-next-giscus
+giscus:
+  enable: true
+  repo: kaierwen/blog # Github repository name
+  repo_id: R_kgDOMjs2aQ # Github repository id
+  category: General # Github discussion category
+  category_id: DIC_kwDOMjs2ac4Chqqn # Github discussion category id
+  # Available values: pathname | url | title | og:title
+  mapping: pathname
+  # Available values: 0 | 1
+  reactions_enabled:
+    1
+    # Available values: 0 | 1
+  emit_metadata: 1
+  # Available values: light | dark | dark_high_contrast | transparent_dark | preferred-color-scheme
+  theme: light
+  # Available values: en | zh-CN
+  lang: zh-CN
+  # Place the comment box above the comments
+  input_position: bottom
+  # Load the comments lazily
+  loading: lazy
 
 # Disqus
 # For more information: https://disqus.com
